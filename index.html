@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        @import url('styles.css');
+    </style>
+    <script src="script.js"></script>
+</head>
+<header>
+    <nav id="navbar">
+      <a href="#welcome-section">
+        <img id="logo" src="https://i.pinimg.com/564x/94/b1/ef/94b1ef740692d195b9679e39d745d78f.jpg">
+      </a>
+      <a id="nav-about" class="nav-links" href="#about-section">About</a>
+      <a id="nav-projects" class="nav-links" href="#projects">Projects</a>
+      <a id="nav-contact" class="nav-links" href="#contact-section">Contact</a>
+    </nav>
+  </header>
+  <br>
+  <body>
+    <section id="welcome-section"> <!-- no margins, black bg */ -->
+      <br>
+      <br>
+      <div id="welcome-content"> <!-- set margins for content -->
+        <img id="portfolio-photo" src="https://live.staticflickr.com/65535/51836160447_c8acbfe0ff_b.jpg">
+        <h1 id="hello">Hello, I'm Matthew. I am a front-end web developer based in Canada.</h1>
+        <h2 id="passionate"></h2> <!-- querySelector for typewriter effect -->
+      </div>
+    </section>
+    <section id="about-section"> <!-- no margins, blue bg -->
+      <div id="about-content"> <!-- set margins for content -->
+        <br>
+        <br>
+        <h1 id="about-title">ABOUT</h1>
+          <p class="about-text">Matthew is a self-taught web developer who specializes in front-end development. He is passionate about using his knowledge of HTML, CSS and JavaScript to design and develop responsive websites that offer the user an exceptional experience.</p>
+        <br>
+          <p class="about-text">Check out some of Matthew's projects below!</p>
+        <h2 id="html-css-js-text">
+          <!-- creating span in order to position separately -->
+          <span id="html-text">HTML</span>
+          <span id="css-text">CSS</span>
+          <span id="js-text">JAVASCRIPT</span>
+        </h2>
+          <img id="html-css-js-photo" src="https://maharatech.gov.eg/pluginfile.php/287106/course/overviewfiles/Client%20Side%20technologies.png">
+    </section>
+    <section id="projects"> <!-- no margins, grey bg */ -->
+      <div id="projects-content"> <!-- set margins for content -->
+        <h1 id="projects-title">PROJECTS</h1>
+        <div id="tile-container">
+          <a class="project-tile" href="https://codepen.io/mlangmuir/pen/jOGXLXK"target="_blank">
+            <img class="project-photos" src = "https://live.staticflickr.com/65535/51841198671_46c6c92de3_b.jpg">
+            <p class="project-title">Langmuir Media Services Landing Page</p>
+          <a class="project-tile" href="https://codepen.io/mlangmuir/pen/BawxmNY" target="_blank">
+              <img class="project-photos" src="https://live.staticflickr.com/65535/51841314733_8f3d8e84ee_b.jpg">
+              <p class="project-title">Desmond Tutu Tribute Page</p>
+          <a id="contact-form-tile" class="project-tile" href="https://codepen.io/mlangmuir/pen/abLQmaO" target="_blank">
+              <img class="project-photos" src="https://live.staticflickr.com/65535/51840258242_473312d575_b.jpg">
+              <p class="project-title">Contact Form</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="contact-section"> <!-- no margins, green bg */ -->
+      <div id="contact-content"> <!-- set margins for content -->
+        <h1 id="work-together">Let's work together!</h1>
+        <h2 id="connect-with-me">Connect with me on LinkedIn and Github or shoot me an email! I would love to hear from you!</h2> 
+        <div id="logo-container">
+          <figure>
+            <a href="https://www.linkedin.com/in/matthew-langmuir-49a137221/" target="_blank">
+              <img id="linkedin-logo" src="http://assets.stickpng.com/images/58e91afdeb97430e81906504.png">
+            </a>
+            <figcaption id="linkedin-caption" class="logo-captions">LinkedIn</figcaption>
+          </figure>
+          <figure>
+            <a id="profile-link" href="https://github.com/mlangmuir" target="_blank">
+              <img id="github-logo" src="https://assets.ifttt.com/images/channels/2107379463/icons/monochrome_large.png">
+            </a>
+            <figcaption id="github-caption" class="logo-captions">GitHub</figcaption>
+          </figure>
+          <figure>
+            <a href="mailto: matthewlangmuir@hotmail.com" target="_blank">
+              <img id="email-logo" src="https://www.designbust.com/download/1024/png/email_icon_transparent512.png">
+            </a>
+            <figcaption id="email-caption" class="logo-captions">Email me!</figcaption>
+          </figure>
+        </div>
+        <br>
+        <h4 id="developed-by">Web page designed and developed by Matthew Langmuir</h4>
+      </div>
+    </section>
+  </body>
+  </html>

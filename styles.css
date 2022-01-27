@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-top: -10px;
+}
+
+header {
+  position: fixed; /* Keeps navbar from moving while scrolling */
+  width: 100%;
+  background-color: black;
+  margin-left: -8px; /* Closes gap on left side */
+  z-index: 99999;
+}
+
+#navbar {
+  color: white;
+  float: right;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-color: black;
+  width: 100%;
+  z-index: 1;
+}
+
+#logo {
+  width: 60px;
+  height: auto;
+  float: left;
+  margin-top: -15px;
+  margin-left: 40px;
+}
+
+#nav-about {
+  margin-left: 70px;
+}
+
+#nav-about:hover {
+  color: grey;
+}
+
+#nav-projects {
+  margin-left: 70px;
+}
+
+#nav-projects:hover {
+  color: grey;
+}
+
+#nav-contact {
+  margin-left: 70px;
+}
+
+#nav-contact:hover {
+  color: grey;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+#welcome-section {
+  height: 100vh;
+  background-color: black;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+#welcome-content {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#hello {
+  width: 50%;
+  float: left;
+  font-size: 56px;
+  color: white;
+  margin-top: 125px;
+}
+
+#passionate {
+  float: left;
+  color: white;
+  font-size: 32px;
+  width: 50%;
+}
+  
+#portfolio-photo {
+  width: 550px;
+  height: 550px;
+  object-fit: cover;
+  float: right;
+  border-radius: 100%;
+  margin-top: 50px;
+}
+
+#about-section {
+  height: 700px;
+  background-color: #00172d;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+#about-content {
+  margin-left: 40px;
+  margin-right: 40px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#about-title {
+  font-size: 48px;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: justify;
+  max-width: 800px;
+  margin: auto;
+}
+
+#html-css-js-text {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#html-text {
+  padding-left: 40px;
+}
+
+#css-text {
+  padding-left: 120px;
+}
+
+#js-text {
+  padding-left: 90px;
+}
+
+#html-css-js-photo {
+  object-fit: cover;
+  object-position: bottom;
+  height: 150px;
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+
+#projects {
+  height: 1750px;
+  background-color: #1d1d1f;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -40px;
+}
+
+#projects-content {
+  margin-left: 40px;
+  margin-right: 40px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#projects-title {
+  font-size: 48px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.project-tile {
+  width: 800px;
+  height: 470px;
+  display: block;
+  margin: auto;
+  background-color: #00172d;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+#contact-form-tile {
+  height: 460px;
+}
+
+.project-photos {
+  width: 800px;
+  height: auto;
+  object-fit: cover;
+}
+
+.project-title {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.project-tile:hover {
+  transform: scale(1.025);
+}
+
+
+#contact-section {
+  height: 550px;
+  background-color: #0B2B26;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+}
+
+#contact-content {
+  margin-left: 40px;
+  margin-right: 40px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#work-together {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 70px;
+}
+
+#connect-with-me {
+  width: 800px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#logo-container {
+  margin: auto;
+  width: 550px;
+  display: flex;
+  flex-direction: row;
+}
+
+#linkedin-logo {
+  width: 90px;
+  margin-top: 5px;
+  height: auto;
+  cursor: pointer;
+}
+
+#linkedin-logo:hover {
+  transform: scale(1.1);
+}
+
+#github-logo {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+#github-logo:hover {
+  transform: scale(1.1);
+}
+
+#email-logo {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+#email-logo:hover {
+  transform: scale(1.1);
+}
+
+.logo-captions {
+  text-align: center;
+}
+
+#linkedin-caption {
+  margin-top: 13px;  
+}
+
+#github-caption {
+  margin-top: 9px;
+}
+
+#email-caption {
+  margin-top: 9px;
+}
+
+#developed-by {
+  margin-top: 80px;
+  text-align: center;
+}
+
+@media screen and (max-height:600px) {
+  
+  #portfolio-photo {
+    /* media query max-height 600px*/
+    width: 450px;
+    height: 450px;
+    margin-top: 25px;
+  }
+  
+  #hello {
+    /* media query max-height 600px*/
+    font-size: 48px;
+    margin-top: 100px;
+  }
+
+  #passionate {
+    /* media query max-height 600px*/
+    font-size: 28px;
+  }
+  
+}
+
+@media screen and (max-height:500px) {
+  
+  #portfolio-photo {
+    /* media query max-height 500px*/
+    width: 350px;
+    height: 350px;
+    margin-top: 25px;
+  }
+  
+  #hello {
+    /* media query max-height 500px*/
+    font-size: 42px;
+    margin-top: 75px;
+  }
+
+  #passionate {
+    /* media query max-height 500px*/
+    font-size: 24px;
+  }
+  
+}
+
+@media screen and (max-height:400px) {
+  
+  #portfolio-photo {
+    /* media query max-height 400px*/
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+  }
+  
+  #hello {
+    /* media query max-height 400px*/
+    font-size: 36px;
+    margin-top: 75px;
+  }
+
+  #passionate {
+    /* media query max-height 400px*/
+    font-size: 20px;
+  }
+  
+}
+
+@media screen and (max-height:300px) {
+  
+  #portfolio-photo {
+    /* media query max-height 300px*/
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+  }
+  
+  #hello {
+    /* media query max-height 300px*/
+    font-size: 20px;
+    margin-top: 75px;
+  }
+
+  #passionate {
+    /* media query max-height 300px*/
+    font-size: 18px;
+  }
+    
+}
+
+@media screen and (max-height:200px) {
+  
+  #portfolio-photo {
+    /* media query max-height 200px*/
+    display: none;
+  }
+  
+  #hello {
+    /* media query max-height 200px*/
+    display: none;
+  }
+
+  #passionate {
+    /* media query max-height 200px*/
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:1262px) {
+  
+  #portfolio-photo {
+    /* media query max-width 1262px*/
+    width: 400px;
+    height: 400px;
+    float: none;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+  }
+  
+  #hello {
+    /* media query max-width 1262px*/
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  #passionate {
+    /* media query max-width 1262px*/
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (max-width:865px) {
+  
+  #projects {
+    /* media query max-width 865px*/
+    height: 1300px;
+  }
+  
+  .project-tile {
+    /* media query max-width 865px*/
+    width: 500px;
+    height: 320px;
+  }
+  
+  .project-photos {
+    /* media query max-width 865px*/
+    width: 500px;
+  }
+  
+  #contact-form-tile {
+    /* media query max-width 865px*/
+    height: 315px;
+  }
+  
+  #contact-section {
+    /* media query max-width 865px*/
+    height: 570px;
+  }
+  
+  #connect-with-me {
+    /* media query max-width 865px*/
+    width: 500px;
+  }
+  
+}
+
+@media screen and (max-width:600px) {
+  
+  #nav-about {
+    /* media query max-width 600px*/
+    margin-left: 30px;
+  }
+
+  #nav-projects {
+    /* media query max-width 600px*/
+    margin-left: 30px;
+  }
+
+  #nav-contact {
+    /* media query max-width 600px*/
+    margin-left: 30px;
+  }
+  
+  #portfolio-photo {
+    /* media query max-width 600px*/
+    width: 350px;
+    height: 350px;
+    float: none;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+  }
+  
+  #hello {
+    /* media query max-width 600px*/
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  #passionate {
+    /* media query max-width 600px*/
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #about-title {
+    /* media query max-width 600px*/
+    font-size: 36px;
+  }
+  
+  .about-text {
+    /* media query max-width 600px*/
+    font-size: 20px;
+  }
+
+  #html-text {
+    /* media query max-width 600px*/
+    padding-right: 20px;
+  }
+
+  #css-text {
+    /* media query max-width 600px*/
+    padding-left: 70px;
+  }
+
+  #js-text {
+    /* media query max-width 600px*/
+    padding-left: 55px;
+  }
+
+  #html-css-js-photo {
+    /* media query max-width 600px*/
+    height: 120px;
+    width: 400px;
+  }
+  
+  #projects {
+    /* media query max-width 600px*/
+    height: 1150px;
+  }
+  
+  #projects-title {
+    /* media query max-width 600px*/
+    font-size: 36px;
+  }
+  
+  .project-tile {
+    /* media query max-width 600px*/
+    width: 400px;
+    height: 270px;
+  }
+  
+  .project-photos {
+    /* media query max-width 600px*/
+    width: 400px;
+  }
+  
+  #contact-form-tile {
+    /* media query max-width 600px*/
+    height: 265px;
+  }
+  
+  #work-together {
+    /* media query max-width 600px*/
+    font-size: 36px;
+  }
+  
+  #connect-with-me {
+    /* media query max-width 600px*/
+    width: 400px;
+    font-size: 20px;
+  }
+  
+  #logo-container {
+    /* media query max-width 600px */
+    margin-left: -20px;
+  }
+    
+}
+
+@media screen and (max-width:555px) {
+
+  #logo-container {
+    /* media query max-width 555px */
+    margin-left: -30px;
+  }
+  
+}
+
+@media screen and (max-width:511px) {
+  
+  #html-css-js-text {
+  /* media query max-width 511px */
+    display: none;
+  }
+  
+  #html-css-js-photo {
+    /* media query max-width 511px */
+    padding-top: 50px;
+  }
+  
+  #projects {
+    /* media query max-width 511px */
+    height: 1000px;
+  }
+  
+  .project-title {
+    /* media query max-width 511px */
+    font-size: 16px;
+  }
+  
+  .project-tile {
+    /* media query max-width 511px */
+    width: 325px;
+    height: 220px;
+  }
+  
+  .project-photos {
+    /* media query max-width 511px */
+    width: 325px;
+  }
+  
+  #contact-form-tile {
+    /* media query max-width 511px */
+    height: 220px;
+  }
+  
+  #contact-section {
+    /* media query max-width 511px */
+    height: 900px;
+  }
+  
+  #connect-with-me {
+    /* media query max-width 511px */
+    width: 350px;
+  }
+  
+  #logo-container {
+    /* media query max-width 511px */
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo-captions {
+    /* media query max-width 511px */
+    margin-right: 375px;
+  }
+  
+}
+
+@media screen and (max-width:430px) {
+  
+  #portfolio-photo {
+    /* media query max-width 430px */
+    width: 300px;
+    height: 300px;
+    float: none;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+  }
+  
+  .nav-links {
+    /* media query max-width 430px */
+    font-size: 16px;
+  }
+  
+  #html-css-js-photo {
+    /* media query max-width 430px */
+    height: 100px;
+    width: 300px;
+  }
+
+}
+  
+@media screen and (max-width:360px) {
+  
+  .nav-links {
+    /* media query max-width 360px*/
+    display: none;
+  }
+  
+  #portfolio-photo {
+    /* media query max-width 360px*/
+    width: 200px;
+    height: 200px;
+    float: none;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+  }
+  
+  #html-css-js-photo {
+    /* media query max-width 360px */
+    display: none;
+  }
+  
+  .project-tile {
+    /* media query max-width 360px */
+    width: 250px;
+    height: 180px;
+  }
+  
+  .project-photos {
+    /* media query max-width 360px */
+    width: 250px;
+  }
+  
+  #contact-form-tile {
+    /* media query max-width 360px */
+    height: 180px;
+  }
+  
+  #contact-section {
+    /* media query max-width 360px */
+    height: 950px;
+  }
+
+}
