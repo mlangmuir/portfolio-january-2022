@@ -9,10 +9,12 @@ body {
 }
 
 header {
-  position: fixed; /* Keeps navbar from moving while scrolling */
+  /* Keeps navbar from moving while scrolling */
+  position: fixed;
   width: 100%;
   background-color: black;
-  margin-left: -8px; /* Closes gap on left side */
+  /* Closes gap on left side */
+  margin-left: -8px;
   z-index: 99999;
 }
 
